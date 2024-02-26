@@ -1,0 +1,109 @@
+body {
+    background: #2c2c2c;
+}
+
+aside {
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid rgb(54, 55, 56);
+    background: rgb(34, 34, 34);
+    width: 1320px;
+    height: 72px;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+aside ul {list-style: none}
+
+aside ol {list-style: none}
+
+aside ul li {
+    position: absolute;
+    width: 85px;
+    height: 24px;
+    left: 1100px;
+    right: 9px;
+    top: 24px;
+    bottom: 0%;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    transition: transform .6s ease;
+}
+
+aside ol li {
+    position: absolute;
+    width: 107px;
+    height: 24px;
+    left: 1200px;
+    right: 9px;
+    top: 24px;
+    bottom: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ol li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 90px;
+    text-align: center;
+    width: 100%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400; margin: 20px auto;}
+
+.test1 {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 240px;
+    top: 200px;
+    box-sizing: border-box;
+    border: 2px solid rgb(54, 55, 56);
+    border-radius: 20px;
+    background: rgb(34, 34, 34);
+}
+
+.test2 {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 750px;
+    top: 200px;
+    box-sizing: border-box;
+    border: 2px solid rgb(54, 55, 56);
+    border-radius: 20px;
+    background: rgb(34, 34, 34);
+}
+
+body {
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
